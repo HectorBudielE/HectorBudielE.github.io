@@ -1,2 +1,2 @@
 # HectorBudielE.github.io
-Personal Website hosted as a Github Pages
+Personal Website hosted as a Github Pages Portfolio
