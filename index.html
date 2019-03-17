@@ -8,36 +8,55 @@
   	<meta name="author" content="Hector Alejandro Budiel Echevarría">
     <title>Hector Budiel Echevarría</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
   </head>
 
   <body>
+      <nav class="navbar" id="navbar">
+        <!-- <select class="selectpicker" data-width="fit">
+          <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Español</option>
+          <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>English</option>
+          <option data-content='<span class="flag-icon flag-icon-fr"></span> French'>Francais</option>
+        </select> -->
+
+        <ul>
+          <li ><a href="#home">Home</a></li>
+          <li ><a href="#projects">Projects</a></li>
+          <li ><a href="#abilities">Abilities</a></li>
+          <li ><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
       <div class="container">
-        <nav class="navbar">
-          <ul>
-            <li ><a href="#home">Home</a></li>
-            <li ><a href="#projects">Projects</a></li>
-            <li ><a href="#abilities">Abilities</a></li>
-            <li ><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+
         <section id="home">
-          <h1>Welcome To My Site</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <h1>Welcome To My Site</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <div id="icons">
+              <a href="https://github.com/HectorBudielE" target="_blank"><img class="icon" src="./icons/github.svg" alt="Github Logo"></a>
+              <a href="https://www.linkedin.com/in/hectorbudielechevarria/" target="_blank"><img class="icon" src="./icons/github.svg" alt="Github Logo"></a>
+              <a href="https://wwww.hectorbudiele.github.io/CV-2019.pdf" target="_blank"><img class="icon" src="./icons/github.svg" alt="Github Logo"></a>
+            </div>
         </section>
-        <section id="projects">
+
+        <section id="projects" class="content">
           <h1>Projects</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+          <div class="project-container">
+            <img class="icon" src="./icons/github.svg" alt="Github Logo" fill=#ffffff>
+          </div>
+
         </section>
-        <section id="abilities">
+
+        <section id="abilities" class="content">
           <h1>Abilities</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </section>
-        <section id="contact">
+
+        <section id="contact" class="content">
           <h1>Contact Me</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </section>
-
-
 
       </div>
 
