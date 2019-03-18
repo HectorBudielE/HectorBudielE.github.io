@@ -181,28 +181,14 @@
 
         <section id="contact" class="content">
           <h1>Contact Me</h1>
-          <p>You can contact me at hector6420@hotmail.com. </p>
+          <p>Whether for a potential project or just to say hi, I'll try my best to answer your message!</br>You can also contact me directly at hector6420@hotmail.com. </p>
           <form name="contact" method="POST" data-netlify="true">
-            <p>
-              <label>Your Name: <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Your Email: <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <label>Your Role: <select name="role[]" multiple>
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
-              </select></label>
-            </p>
-            <p>
-              <label>Message: <textarea name="message"></textarea></label>
-            </p>
-            <p>
+              <input type="text" name="name" placeholder="Your name" required/>
+              <label>Email address: <input type="email" name="email" placeholder="Your email" required/></label>
+              <label>Subject: <input type="text" name="subject" placeholder="Subject"/></label>
+              <label>Message: <textarea name="message" placeholder="Message"></textarea></label>
               <button type="submit">Send</button>
-            </p>
           </form>
-          
         </section>
 
       </div>
