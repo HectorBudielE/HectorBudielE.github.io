@@ -29,7 +29,8 @@ body{
   display:flex;
   width: 100%;
   height: 60px;
-  background: hsla(0, 0%, 25%,0.7);
+  /*background: hsla(0, 0%, 25%,0.7);*/
+  background: rgba(0,59,70, 0.7);
 }
 
 .navbar ul{
@@ -51,7 +52,7 @@ body{
 }
 
 .navbar ul li a:hover{
-  color:skyblue;
+  color:#66A5AD;
 }
 
 /* Section Home*/
@@ -117,7 +118,7 @@ section#home p{
   border-radius: 50%;
 }
 #Github-logo:hover{
-  border-color: skyblue;
+  border-color: #66A5AD;
 }
 #Linkedin-logo{
   padding: 1px 1px 1px 1px;
@@ -128,7 +129,7 @@ section#home p{
   border-radius: 20%;
 }
 #Linkedin-logo:hover{
-  border-color: skyblue;
+  border-color: #66A5AD;
 }
 #Cloud-Logo{
   background-color: white;
@@ -138,7 +139,7 @@ section#home p{
   border-radius: 50%;
 }
 #Cloud-Logo:hover{
-  border-color: skyblue;
+  border-color: #66A5AD;
 }
 
 section.content{
@@ -164,7 +165,8 @@ section.content h1{
 
 section#projects {
   /*background: url('../img/montreal2.jpg') no-repeat center center/cover;*/
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF;*/
+  background-color: #C4DFE6;
   color:#000;
   padding-bottom: 2rem;
 }
@@ -185,6 +187,7 @@ div.project-container{
   height: 100%;
   background-color: #e6e6e6;
   margin: 4rem auto 2rem auto;
+  border-radius: 15px;
 }
 div.project-image-container{
   display:flex;
@@ -192,6 +195,7 @@ div.project-image-container{
   width: 100%;
   height: 50%;
   overflow: hidden;
+  border-radius: 15px;
 }
 img.project-image{
   width:100%;
@@ -250,12 +254,13 @@ div.project-links-container{
   border-radius: 20%;
 }
 #Link-logo:hover{
-  border-color: skyblue;
+  border-color: #66A5AD;
 }
 
 /* Section Abilities*/
 section#abilities {
-  background-color: #e6e6e6;
+  /*background-color: #e6e6e6;*/
+  background-color: #66A5AD;
   padding-bottom: 1.5rem;
 }
 .abilities-container{
@@ -266,12 +271,12 @@ section#abilities {
 .abilities-container h4{
   font-size: 1.5rem;
   text-align: left;
-  color:hsl(0, 0%, 20%);
+  color:hsl(0, 0%, 10%);
 }
 
 section#abilities ul{
   font-size:1.2rem;
-  color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 10%);
   list-style: none;
   justify-content:flex-start;
   text-align: left;
@@ -287,7 +292,8 @@ div.skill-section:hover{
 
 /* Section Contact*/
 section#contact {
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF;*/
+  background-color: #C4DFE6;
   padding-bottom: 8rem;
 }
 section#contact p{
@@ -322,4 +328,5 @@ form button:hover{
 
 footer{
   text-align: right;
+  background-color:#07575B;
 }
